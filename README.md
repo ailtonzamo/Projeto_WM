@@ -34,16 +34,19 @@ Para utilização das gems é necessário primeiramente instalar:
 No cmd, digitar o seguinte comando:"gem install bundler"
 
 o sistema exibe a seguinte mensagem:
+
 		λ gem install bundler
 		Successfully installed bundler-1.15.1
 		Parsing documentation for bundler-1.15.1
 		Done installing documentation for bundler after 5 seconds
 		1 gem installed
 No cmd, digitar o seguinte comando:"cucumber --init"
+
 		   features
 		   features/step_definitions
 		   features/support
 		   features/support/env.rb
+		   
 O sistema gerou os diretórios e subdiretórios
 
 No features: é onde definito o caso funcional do teste, utilizando a estrutura do cucumber, salvo como "nome.feature".
@@ -58,6 +61,7 @@ Exemplo:
 		And   O sistema retonar a solicitação
 		Then  Verificar se o cep é válido 
 no suport: São definidos os gems que os sistema irá utilizar, salvo como "env.rb"
+
 		# frozen_string_literal: true
 		require "capybara/cucumber"
 		require "selenium-webdriver"
