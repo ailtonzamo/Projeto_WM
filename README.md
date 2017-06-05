@@ -46,8 +46,8 @@ No cmd, digitar o seguinte comando:"cucumber --init"
 		   features/support/env.rb
 O sistema gerou os diretórios e subdiretórios
 
-No features: é onde definito o caso funcional do teste, utilizando a estrutura do cucumber, que é salvo "nome.feature".
-Exempolo:
+No features: é onde definito o caso funcional do teste, utilizando a estrutura do cucumber, salvo como "nome.feature".
+Exemplo:
 
 		# Language: pt
 		Feature: Consultar o cep no sistema dos Correios atráves da ferramenta.
@@ -65,7 +65,7 @@ no suport: São definidos os gems que os sistema irá utilizar, que é salvo com
 		Capybara.default_driver = :selenium
 		Capybara.default_max_wait_time = 60
 		
-No diretório step_definitions: São definidos os passos de execução com a ferramenta, que é salvo "nome.rb"
+No diretório step_definitions: São definidos os passos de execução com a ferramenta, salvo como "nome.rb"
 
 exemplo:
 
