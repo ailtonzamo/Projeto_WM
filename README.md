@@ -57,7 +57,7 @@ Exemplo:
 		When  Digitar um cep válido
 		And   O sistema retonar a solicitação
 		Then  Verificar se o cep é válido 
-no suport: São definidos os gems que os sistema irá utilizar, que é salvo como "env.rb"
+no suport: São definidos os gems que os sistema irá utilizar, salvo como "env.rb"
 		# frozen_string_literal: true
 		require "capybara/cucumber"
 		require "selenium-webdriver"
