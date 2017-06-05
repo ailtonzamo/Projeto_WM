@@ -48,6 +48,7 @@ O sistema gerou os diretórios e subdiretórios
 
 No features: é onde definito o caso funcional do teste, utilizando a estrutura do cucumber, que é salvo "nome.feature".
 Exempolo:
+
 		# Language: pt
 		Feature: Consultar o cep no sistema dos Correios atráves da ferramenta.
 
@@ -67,6 +68,7 @@ no suport: São definidos os gems que os sistema irá utilizar, que é salvo com
 No diretório step_definitions: São definidos os passos de execução com a ferramenta, que é salvo "nome.rb"
 
 exemplo:
+
 		Given(/^Acessar ao Sistema Heroukapp$/) do
 		   visit "https://the-internet.herokuapp.com/login"
 		end
