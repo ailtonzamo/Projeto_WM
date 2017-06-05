@@ -28,8 +28,11 @@ g)no cmd, digitar o seguinte comando: ruby dk.rb install
 
 
 Definição do Cucumber e instalação
+
 Para utilização das gems é necessário primeiramente instalar:
+
 No cmd, digitar o seguinte comando:"gem install bundler"
+
 o sistema exibe a seguinte mensagem:
 		λ gem install bundler
 		Successfully installed bundler-1.15.1
@@ -62,6 +65,7 @@ no suport: São definidos os gems que os sistema irá utilizar, que é salvo com
 		Capybara.default_max_wait_time = 60
 		
 No diretório step_definitions: São definidos os passos de execução com a ferramenta, que é salvo "nome.rb"
+
 exemplo:
 		Given(/^Acessar ao Sistema Heroukapp$/) do
 		   visit "https://the-internet.herokuapp.com/login"
