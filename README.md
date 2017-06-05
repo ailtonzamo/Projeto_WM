@@ -3,6 +3,7 @@ O cucumber é uma linguagem que permite o entendimento de todos envolvimentos no
 a comunicção entre todos.
 
 Instalando Ruby 64 Bits
+
 a) Fazer download da versão 2.3.3 x64 http://rubyinstaller.org/downloads/
 b) Na instalação selecionar as Install Td/Tk suporte, Add Ruby to you Path e
 associate .rb and .rbw files with this Ruby Installation.
