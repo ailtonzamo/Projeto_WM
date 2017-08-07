@@ -1,6 +1,6 @@
 O objetivo desse projeto é utilização do cucumber, capybara/rspec para fim de desenvolvimento de teste automatizado.
 O cucumber é uma linguagem que permite o entendimento de todos envolvimentos no desenvolvimento do sistema, melhorarando
-a comunicção entre todos.
+a comunicação entre todos.
 
 Instalando Ruby 64 Bits
 
